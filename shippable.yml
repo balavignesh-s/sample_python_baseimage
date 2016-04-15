@@ -35,4 +35,8 @@ integrations:
             - balavignesh@shippable.com
           on_success: always
           on_failure: always
-  
+        
+        - integrationName: mySlack
+          type: slack
+          recipients:
+            - "#coverage"
